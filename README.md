@@ -9,8 +9,10 @@ The install is fairly simple
 Clone the repository in your terminal by:
 
 ```bash
-git clone https://github.com/Madden321pop/ezCompiler-The-simple-C-compiler.git
-cd ezCompiler-The-simple-C-compiler
+wget https://github.com/Madden321pop/ezCompiler-The-simple-C-compiler/archive/refs/heads/main.zip
+unzip main.zip
+cd ezCompiler-The-simple-C-compiler-main
+chmod +x MainInstaller
 ./MainInstaller
 
 ```
