@@ -6,7 +6,7 @@ This makes compiling C files very easy. No need to put gcc "" -o "". Just a basi
 
 The install is fairly simple
 
-** PLEASE INSTALL UNZIP IF NOT ARLEADY INSTALLED **
+** PLEASE INSTALL UNZIP AND GCC IF NOT ARLEADY INSTALLED **
 
 Clone the repository in your terminal by:
 
@@ -14,7 +14,7 @@ Clone the repository in your terminal by:
 wget https://github.com/Madden321pop/ezCompiler-The-simple-C-compiler/archive/refs/heads/main.zip
 unzip main.zip
 cd ezCompiler-The-simple-C-compiler-main
-chmod +x MainInstaller
+gcc installer.c -o MainInstaller
 ./MainInstaller
 
 ```
