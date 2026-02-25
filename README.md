@@ -13,7 +13,8 @@ git clone https://github.com/Madden321pop/ezCompiler-The-simple-C-compiler.git
 cd ezCompiler-The-simple-C-compiler
 ./MainInstaller
 
-`
+```
+
 Thats it. All so simple!
 
 # How to use!
