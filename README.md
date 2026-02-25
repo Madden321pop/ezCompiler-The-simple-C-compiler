@@ -6,6 +6,8 @@ This makes compiling C files very easy. No need to put gcc "" -o "". Just a basi
 
 The install is fairly simple
 
+** PLEASE INSTALL UNZIP IF NOT ARLEADY INSTALLED **
+
 Clone the repository in your terminal by:
 
 ```bash
