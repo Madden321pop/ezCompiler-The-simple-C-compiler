@@ -23,7 +23,12 @@ int main (){
     } else if (choice == 'y' || choice == 'Y'){
         printf("Installing ezCompile\n");
 
+        fflush(stdout);
+
         printf("Compiling Code\n");
+
+        fflush(stdout);
+
         system("gcc ezCompile.c -o ezCompile");
         system("cp ezCompile ~/ezCompile");
 
@@ -35,15 +40,14 @@ int main (){
 
         system("echo \"alias ezCompile='$HOME/ezCompile'\" >> ~/.bashrc");
 
-        printf("Installation Complete, Please restart your terminal");
+        printf("Installation Complete, Please restart your terminal\n\n");
 
 
     } else { 
         printf("Installation Failed\n");
     }
 
-    
-    system("echo beans");
+
 
     return 1;
 }
