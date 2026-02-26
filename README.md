@@ -1,12 +1,12 @@
 # ezCompiler-The-simple-C-compiler
-This makes compiling C files very easy. No need to put gcc "" -o "". Just a basic ezCompile "".
+This makes compiling C files very easy. No need to put gcc "" -o "" && ./"". Just a basic ezCompile <file.c>.
 
 
 # How to install!
 
 The install is fairly simple
 
-** PLEASE INSTALL UNZIP AND GCC IF NOT ARLEADY INSTALLED **
+** PLEASE INSTALL GCC IF NOT ARLEADY INSTALLED **
 
 Clone the repository in your terminal by:
 
@@ -22,8 +22,16 @@ Thats it. All so simple!
 
 # How to use!
 
-TO use it its seriously just
+To use it its seriously just
 
 ezCompile <file.c>
+
+To check it's Version.
+
+ezCompile --version
+
+To see its commands just run
+
+ezCompile
 
 Make sure to restart your terminal after installing!
