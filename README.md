@@ -23,15 +23,15 @@ Thats it. All so simple!
 # How to use!
 
 To use it its seriously just
-
+```bash
 ezCompile <file.c>
-
+```
 To check it's Version.
-
+```bash
 ezCompile --version
-
+```
 To see its commands just run
-
+```bash
 ezCompile
-
+```
 Make sure to restart your terminal after installing!
