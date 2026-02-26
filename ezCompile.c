@@ -6,7 +6,8 @@
 int main(int argc, char *argv[]){
     if (argc < 2){
         printf("Please provide the right filename\n");
-        printf("Usage: ezCompile <file.c>\n");
+        printf("Usage: ezCompile <file.c>, ezCompile --version\n");
+        return 0;
     } else if (strcmp(argv[1], "--version") == 0){
         printf("ezCompile Version V1.0\n");
         return 0;
