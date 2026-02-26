@@ -33,7 +33,7 @@ int main (){
 
         printf("This may take a few seconds\n");
 
-        system("echo \"alias ezCompile='~/ezCompile'\" >> ~/.bashrc");
+        system("echo \"alias ezCompile='$HOME/ezCompile'\" >> ~/.bashrc");
 
         printf("Installation Complete, Please restart your terminal");
 
