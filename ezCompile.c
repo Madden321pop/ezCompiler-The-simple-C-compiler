@@ -12,12 +12,12 @@ int main(int argc, char *argv[]){
 
     sprintf(command, "gcc %s -o ez_out && ./ez_out && rm ez_out", argv[1]);
 
-    printf("Compiling and running file!");
+    printf("\n\nCompiling and running file!\n");
 
     int result = system(command);
 
     if (result != 0){
-        printf("The file failed to compile!");
+        printf("The file failed to compile!\n\n");
     }
 
     return 0;
