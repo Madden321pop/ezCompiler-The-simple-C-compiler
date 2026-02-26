@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
 
     sprintf(command, "gcc %s -o ez_out && ./ez_out && rm ez_out", argv[1]);
 
-    printf("\n\nCompiling and running file!\n");
+    printf("\nCompiling and running file!\n");
 
     int result = system(command);
 
